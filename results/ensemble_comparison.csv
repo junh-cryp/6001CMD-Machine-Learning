@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1-Score,ROC-AUC,Training Time (s)
+Logistic Regression,0.7558,0.267,0.6229,0.3738,0.7723,0.2525
+Random Forest,0.8442,0.3913,0.5974,0.4729,0.8033,1.3441
+Gradient Boosting,0.8957,0.6533,0.2316,0.3419,0.8065,11.9252
+Soft Voting (RF + LR),0.8309,0.3658,0.6068,0.4565,0.7999,1.1922
+Stacking (RF + LR),0.7919,0.3159,0.6682,0.429,0.8042,12.9282
